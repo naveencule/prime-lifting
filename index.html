@@ -5,10 +5,18 @@
 <!-- Mirrored from html.geekcodelab.com/decore/Multiple_Pages/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jan 2026 05:08:36 GMT -->
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="DeCore - Architecture & Interior HTML5 Template" />
-    <meta name="description" content="DeCore - Architecture & Interior HTML5 Template" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Prime India Building Lifting</title>
+    
+    <title>Prime Building Lifting | Expert House Lifting Services in Kerala</title>
+    <meta name="title" content="Prime Building Lifting | Expert House Lifting Services in Kerala">
+    <meta name="description" content="Based in Alappuzha, Prime Building Lifting provides safe and professional house lifting, building shifting, and structural elevation services across all of Kerala.">
+    <meta name="keywords" content="house lifting Alappuzha, building lifting Kerala, house shifting services, building elevation, foundation repair Kerala, Prime Building Lifting, house lifting Kochi, building lifting Trivandrum" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://primebuildinglifting.com/">
+    <meta property="og:title" content="Prime Building Lifting - Alappuzha, Kerala">
+    <meta property="og:description" content="Professional house lifting and building shifting services available throughout Kerala. Safe, reliable, and cost-effective.">
+    <meta property="og:image" content="assets/images/logo1.png">
 
     <!-- FavIcon Link -->
 <link rel="icon" href="assets/images/logo1.png" type="image/gif" sizes="36x36">
@@ -366,7 +374,7 @@
                         </div> 
                     </div>
                     <figcaption class="project-box-right-part">
-                        <a title="Luxury Design" href="projects.html" class="project-title">Alappuzha Punnamada </a>
+                        <!-- <a title="Luxury Design" href="projects.html" class="project-title">Alappuzha Punnamada </a> -->
                     </figcaption>
                 </figure>
 
@@ -379,7 +387,7 @@
                         </div>
                     </div>
                     <figcaption class="project-box-right-part">
-                        <a  href="projects.html" class="project-title">Kottayam Vaikom</a>
+                        <!-- <a  href="projects.html" class="project-title">Kottayam Vaikom</a> -->
                     </figcaption>
                 </figure>
 
@@ -392,7 +400,7 @@
                         </div>
                     </div>
                     <figcaption class="project-box-right-part">
-                        <a title="Minimal Design" href="projects.html" class="project-title">Thiruvalla Pathanamthitta</a>
+                        <!-- <a title="Minimal Design" href="projects.html" class="project-title">Thiruvalla Pathanamthitta</a> -->
                     </figcaption>
                 </figure>
 
@@ -405,7 +413,7 @@
                         </div>
                     </div>
                     <figcaption class="project-box-right-part">
-                        <a title="Decorating Design" href="projects.html" class="project-title">Kumarakom Kottayam</a>
+                        <!-- <a title="Decorating Design" href="projects.html" class="project-title">Kumarakom Kottayam</a> -->
                     </figcaption>
                 </figure>
 
@@ -418,7 +426,7 @@
                         </div>
                     </div>
                     <figcaption class="project-box-right-part">
-                        <a title="Building Space Planner" href="projects.html" class="project-title">Cherthala Alappuzha</a>
+                        <!-- <a title="Building Space Planner" href="projects.html" class="project-title">Cherthala Alappuzha</a> -->
                     </figcaption>
                 </figure>
 
@@ -431,13 +439,13 @@
                         </div>
                     </div>
                     <figcaption class="project-box-right-part">
-                        <a title="Green Design Consultant" href="projects.html" class="project-title">Vaikom</a>
+                        <!-- <a title="Green Design Consultant" href="projects.html" class="project-title">Vaikom</a> -->
                     </figcaption>
                 </figure>
             </div>
 
             <div class="explore-more-btn wow fadeup-animation" data-wow-duration="1s" data-wow-delay="0.4s">
-                <a title="Explore More Project" href="projects.html" class="explore-more-link">Explore More Project +</a>
+                <!-- <a title="Explore More Project" href="projects.html" class="explore-more-link">Explore More Project +</a> -->
             </div>
         </div>
     </section>
@@ -826,28 +834,28 @@
                             <p>Your email address will not be published. Required fields are marked <span>*</span></p>
                         </div>
 
-                        <form class="contact-form wow fadeup-animation" data-wow-duration="1s" data-wow-delay="0.3s">
-                            <div class="form-input-wp">
-                                <label>Your Name <span>*</span></label>
-                                <input type="text" class="form-input" required>
-                                <div class="ani-line"></div>
-                            </div>
-                            <div class="form-input-wp">
-                                <label>Your Email <span>*</span></label>
-                                <input type="email" class="form-input" required>
-                                <div class="ani-line"></div>
-                            </div>
-                            <div class="form-flex-box">
-                                <div class="form-input-wp">
-                                    <label>Message</label>
-                                    <textarea cols="30" rows="10" class="form-input"></textarea>
-                                    <div class="ani-line"></div>
-                                </div>
-                                <div class="submit-btn">
-                                    <button class="sec-btn">submit</button>
-                                </div>
-                            </div>
-                        </form>
+                                        <form action="send_mail.php" method="POST" class="contact-form wow fadeup-animation" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="form-input-wp">
+                        <label>Your Name <span>*</span></label>
+                        <input type="text" name="name" class="form-input" required>
+                        <div class="ani-line"></div>
+                    </div>
+                    <div class="form-input-wp">
+                        <label>Your Email <span>*</span></label>
+                        <input type="email" name="email" class="form-input" required>
+                        <div class="ani-line"></div>
+                    </div>
+                    <div class="form-flex-box">
+                        <div class="form-input-wp">
+                            <label>Message</label>
+                            <textarea name="message" cols="30" rows="10" class="form-input"></textarea>
+                            <div class="ani-line"></div>
+                        </div>
+                        <div class="submit-btn">
+                            <button type="submit" name="submit" class="sec-btn">submit</button>
+                        </div>
+                    </div>
+                </form>
                     </div>
                 </div>
 
@@ -916,7 +924,7 @@
 </p>
                             </div>
 
-                            <div class="subscribe-footer wow left-animation" data-wow-duration="1s" data-wow-delay="0.4s">
+                            <!-- <div class="subscribe-footer wow left-animation" data-wow-duration="1s" data-wow-delay="0.4s">
                                 <h3 class="footer-title">subscribe</h3>
                                 <form class="subscribe-form">
                                     <div class="form-input-wp">
@@ -933,7 +941,7 @@
                                         </button>
                                     </div>
                                 </form>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -1026,9 +1034,9 @@
                     <div class="col-lg-6">
                         <div class="social-icon">
                             <ul>
-                                <li><a title="Follow On Facebook" href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a> </li>
-                                <li><a title="Follow On Youtube" href="javascript:void(0)"><i class="fab fa-youtube"></i></a></li>
-                                <li><a title="Follow On Instagram" href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+                                <li><a title="Follow On Facebook" href="https://www.facebook.com/share/1797hramQ9/" target="_blank"><i class="fab fa-facebook-f"></i></a> </li>
+                                <li><a title="Follow On Youtube" href="https://www.youtube.com/@PrimeBuildingLifting" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                               <li><a title="Follow On Instagram" href="https://www.instagram.com/primebuildinglifting?igsh=MTl4eGUzZG9iMXRwMQ=="><i class="fab fa-instagram"></i></a></li>
                                 <!-- <li><a title="Follow On Iinkedin" href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a></li> -->
                             </ul>
                         </div>
