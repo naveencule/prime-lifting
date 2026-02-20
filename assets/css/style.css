@@ -2915,6 +2915,7 @@ textarea.form-input {
     .about-img {
         height: 330px;
         width: 300px;
+        margin-left: 40px;
     }
     .reviews-slider {
         width: 100%;
