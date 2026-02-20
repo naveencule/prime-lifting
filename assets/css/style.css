@@ -2881,6 +2881,11 @@ textarea.form-input {
     .project-row .project-box:nth-child(even) .project-box-right-part {
         padding-right: 4vw;
     }
+    .project-img {
+        height: 34vw;
+        width: 300px;
+    }
+
     .team-img {
         min-height: 300px;
         height: 75vw;
