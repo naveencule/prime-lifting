@@ -1054,7 +1054,7 @@ textarea.form-input {
 
 .project-img {
     width: 100%;
-    height: 300px;
+    height: 36vw;
     min-height: 320px;
     max-height: 540px;
     background-size: cover;
@@ -1082,12 +1082,6 @@ textarea.form-input {
     grid-template-areas: "gallery-caption gallery-image";
     grid-template-columns: 1fr 1.66fr;
     align-items: flex-end;
-    display: flex !important;
-    flex-direction: column !important; /* Image on top, text below */
-    grid-template-columns: none !important; 
-    margin-bottom: 50px !important;
-    padding: 0 !important;
-    width: 100%;
 }
 
 .project-box-left-part {
@@ -2381,6 +2375,7 @@ textarea.form-input {
     }
     .project-img {
         height: 34vw;
+        /* width: 200px; */
     }
     .team-box p {
         font-size: 24px;
@@ -2620,8 +2615,6 @@ textarea.form-input {
     }
     .project-row {
         grid-template-columns: auto;
-        display: block !important; /* Switch from grid to block for stacking */
-        width: 100%;
     }
     .project-row .project-box:nth-child(even) {
         margin: 0;
@@ -2634,13 +2627,6 @@ textarea.form-input {
         align-items: center;
         margin: 0;
         margin-bottom: 30px;
-    }
-
-    .project-img {
-        width: 100% !important;
-        height: 300px !important; /* Force all images to be the same height */
-        min-height: 250px !important;
-        display: block;
     }
     .reviews-slider {
         padding-right: 20vw;
@@ -2923,6 +2909,7 @@ textarea.form-input {
     }
     .about-img {
         height: 330px;
+        width: 300px;
     }
     .reviews-slider {
         width: 100%;
@@ -2987,6 +2974,7 @@ textarea.form-input {
     }
     .project-img {
         min-height: 290px;
+        width: 345px;
     }
     .project-title {
         font-size: 24px;
