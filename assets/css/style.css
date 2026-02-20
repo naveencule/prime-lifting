@@ -2859,7 +2859,7 @@ textarea.form-input {
     }
 }
 
-@media(max-width: 575px) {
+@media(max-width: 875px) {
     .container,
     .container-fluid {
         padding: 0 30px;
